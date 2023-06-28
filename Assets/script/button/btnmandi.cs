@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class mandi : MonoBehaviour
+public class btnmandi1 : MonoBehaviour
 {
-    public Button button2;
+    public Button button1;
 
     // Start is called before the first frame update
     void Start()
     {
-        button2.onClick.AddListener(TaskOnClick);
+        button1.onClick.AddListener(TaskOnClick);
     }
 
     void TaskOnClick()
