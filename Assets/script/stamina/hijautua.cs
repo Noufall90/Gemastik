@@ -11,7 +11,7 @@ public class updateStaminaWheel : MonoBehaviour
 
     private float decrementRate; // Pengurangan stamina per detik
     private bool isDelaying = false; // Status penundaan
-    private WaitForSeconds delayDuration = new WaitForSeconds(5f); // Durasi penundaan
+    private WaitForSeconds delayDuration = new WaitForSeconds(7f); // Durasi penundaan
 
     void Start()
     {

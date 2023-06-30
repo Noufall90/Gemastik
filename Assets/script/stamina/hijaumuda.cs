@@ -10,6 +10,9 @@ public class StaminaWheel : MonoBehaviour
     private float decrementRate; // Pengurangan stamina per detik
     private float timeCounter = 0f; // Penghitung waktu
 
+    private Color originalColor = new Color(0.3804f, 0.9255f, 0.1176f); // Warna asli slider (61EC1E)
+    private Color redColor = Color.red; // Warna merah
+
     void Start()
     {
         stamina = maxStamina;
@@ -25,11 +28,36 @@ public class StaminaWheel : MonoBehaviour
         if (usageWheel != null)
         {
             usageWheel.value = (stamina / maxStamina) + 0f;
+
+            if (Mathf.FloorToInt(timeCounter) >= 80) // Ketika angka berada di detik 10 atau lebih
+            {
+                ChangeSliderColor(redColor); // Ubah warna slider menjadi merah
+            }
+            else
+            {
+                ChangeSliderColor(originalColor); // Kembalikan warna slider ke warna asli
+            }
         }
 
         if (stamina <= 0)
         {
             // Lakukan tindakan ketika stamina habis
+        }
+    }
+
+    private void ChangeSliderColor(Color color)
+    {
+        if (usageWheel != null)
+        {
+            var fillRect = usageWheel.fillRect;
+            if (fillRect != null)
+            {
+                var fillImage = fillRect.GetComponent<Image>();
+                if (fillImage != null)
+                {
+                    fillImage.color = color;
+                }
+            }
         }
     }
 }
