@@ -26,7 +26,7 @@ public class StaminaWheel : MonoBehaviour
             currentStamina = maxStamina;
         }
 
-        decrementRate = maxStamina / 300f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
+        decrementRate = maxStamina / 200f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
     }
 
     void Update()

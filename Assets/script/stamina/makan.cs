@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class tidur : MonoBehaviour
+public class makan : MonoBehaviour
 {
     public float maxStamina = 100f; // Nilai maksimum stamina
     public Slider usageWheel; // Slider untuk menampilkan penggunaan stamina
@@ -26,7 +26,7 @@ public class tidur : MonoBehaviour
             currentStamina = maxStamina;
         }
 
-        decrementRate = maxStamina / 400f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
+        decrementRate = maxStamina / 270f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
     }
 
     void Update()
