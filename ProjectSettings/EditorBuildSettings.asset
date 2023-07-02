@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tidur.unity
     guid: 2e098b0e4ee34204c9c00d049d79f341
+  - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: 103cb2ee2501def4f9a87ca5b9f9f830
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
