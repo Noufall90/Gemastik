@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StaminaWheel : MonoBehaviour
+public class tidur : MonoBehaviour
 {
     public float maxStamina = 100f; // Nilai maksimum stamina
     public Slider usageWheel; // Slider untuk menampilkan penggunaan stamina
