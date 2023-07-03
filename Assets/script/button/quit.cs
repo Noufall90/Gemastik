@@ -10,6 +10,12 @@ public class Quit : MonoBehaviour
 
     public void QuitGame()
     {
+        AutosaveManager autosaveManager = FindObjectOfType<AutosaveManager>();
+        if (autosaveManager != null)
+        {
+            autosaveManager.Autosave();
+        }
+        
         Debug.Log("Anda telah keluar");
         Application.Quit();
     }
