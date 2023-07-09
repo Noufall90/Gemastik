@@ -23,29 +23,28 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!PlayerManager.isGameStarted)
+            return;
         direction.z = forwardSpeed;
         
+        // isGrounded = Physics.CheckSphere(groundCheck.position, 0.15f, groundLayer);
         if (controller.isGrounded)
         {
-            direction.y = -1;
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
+            direction.y = -2;
+            if (SwipeManager.swipeUp)
                 Jump();
-            }
         }
-        else
-        {
+        else 
             direction.y += gravity * Time.deltaTime;
-        }
         //Gather the input of the direction on which lane we should be
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (SwipeManager.swipeRight)
         {
             desiredLane++;
             if (desiredLane == 3)
                 desiredLane = 2;
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (SwipeManager.swipeLeft)
         {
             desiredLane--;
             if (desiredLane == -1)
@@ -76,6 +75,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!PlayerManager.isGameStarted)
+            return;
         controller.Move(direction * Time.fixedDeltaTime);
     }
 
