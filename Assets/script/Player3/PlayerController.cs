@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private int desiredLane = 1; //0: left, 1: middle, 2: right
     public float laneDistance = 400; //the distance between two lane
     public float jumpForce;
-    public float gravity = -500;
+    public float gravity = -300;
 
     // Start is called before the first frame update
     void Start()
