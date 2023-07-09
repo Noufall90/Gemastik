@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg utama_0: 442984998289713464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

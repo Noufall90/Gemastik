@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gamekotak_0: -384232641729381733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
