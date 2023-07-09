@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4f3baf7e6df52b94784ad0caab2065ba
+guid: 9256786abd5691d4c8851edb61e70f93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 442984998289713464
-    second: bg utama_0
+      213: 6682738439518977790
+    second: Ground_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg utama_0
+      name: Ground_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1082
-        height: 1920
+        width: 1008
+        height: 998
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 839a2e7428cc52600800000000000000
-      internalID: 442984998289713464
+      spriteID: efe706e343bddbc50800000000000000
+      internalID: 6682738439518977790
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bg utama_0: 442984998289713464
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
