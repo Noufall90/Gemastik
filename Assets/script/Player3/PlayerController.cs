@@ -7,8 +7,10 @@ public class PlayerController : MonoBehaviour
     private CharacterController controller;
     private Vector3 direction;
     public float forwardSpeed;
+
     private int desiredLane = 1; //0: left, 1: middle, 2: right
     public float laneDistance = 400; //the distance between two lane
+
     public float jumpForce;
     public float gravity = -300;
 
@@ -16,7 +18,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
     }
 
     // Update is called once per frame
@@ -62,15 +63,32 @@ public class PlayerController : MonoBehaviour
             targetPosition += Vector3.right * laneDistance;
         }
 
-        transform.position = Vector3.Lerp(transform.position, targetPosition, 450 * Time.deltaTime);
-    
+        // transform.position = Vector3.Lerp(transform.position, targetPosition, 450 * Time.deltaTime);
+        if (transform.position == targetPosition)
+            return;
+        Vector3 diff = targetPosition - transform.position;
+        Vector3 moveDir = diff.normalized * 450 * Time.deltaTime;
+        if(moveDir.sqrMagnitude < diff.sqrMagnitude) 
+            controller.Move(moveDir);
+        else
+            controller.Move(diff);
     }
+
     private void FixedUpdate()
     {
         controller.Move(direction * Time.fixedDeltaTime);
     }
+
     private void Jump()
     {
         direction.y = jumpForce;
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.transform.tag == "Obstacle")
+        {
+            PlayerManager.gameOver = true;
+        }
     }
 }
