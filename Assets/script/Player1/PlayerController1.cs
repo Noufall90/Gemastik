@@ -11,6 +11,7 @@ public class PlayerController1 : MonoBehaviour
     private bool isGrounded = false;
     public float gravity;
 
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
