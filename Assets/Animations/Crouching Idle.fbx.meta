@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25ff4dd66396e0c41ba51434ffb321d4
+guid: ea6390a2a51180d42bf959793e3d47a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: badan
-    second: {fileID: 2100000, guid: 3cbd425e3ae708749ba91e1ccdde577d, type: 2}
+    second: {fileID: 2100000, guid: f96fe19d20ac66044b835d8f5f1b17bb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
