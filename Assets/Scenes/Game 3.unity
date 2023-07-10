@@ -1244,8 +1244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardSpeed: 1500
   laneDistance: 500
-  jumpForce: 500
-  gravity: -300
+  jumpForce: 1000
+  gravity: -1200
 --- !u!136 &1329319638
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1505,7 +1505,7 @@ MonoBehaviour:
   - {fileID: 8574571530585603497, guid: 3e5403bb40d2f664ca1aaee069958020, type: 3}
   zSpawn: 1000.079
   ySpawn: 0
-  tileLength: 10000
+  tileLength: 10500
   numberOfTiles: 3
   playerTransform: {fileID: 1329319641}
 --- !u!4 &1578597952
