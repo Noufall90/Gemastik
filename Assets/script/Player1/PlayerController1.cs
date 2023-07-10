@@ -6,8 +6,8 @@ public class PlayerController1 : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 direction;
-    public float speed;g
-    public float jumpForce;
+    public float speed;
+    private float jumpForce;
     private bool isGrounded = false;
     public float gravity;
 
@@ -24,9 +24,9 @@ public class PlayerController1 : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.UpArrow))
                 Jump();
         }
-        else 
+        else
             direction.y += gravity * Time.deltaTime;
-        
+
     }
 
     private void FixedUpdate()
