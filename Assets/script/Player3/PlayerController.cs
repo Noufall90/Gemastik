@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravity = -300;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!PlayerManager.isGameStarted)
             return;
+        
+        // animator.SetBool("isGameStarted", true);
         direction.z = forwardSpeed;
         
         // isGrounded = Physics.CheckSphere(groundCheck.position, 0.15f, groundLayer);
