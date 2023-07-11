@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 572217751}
   - component: {fileID: 572217750}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Try Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,7 +1896,7 @@ GameObject:
   - component: {fileID: 1275546500}
   - component: {fileID: 1275546499}
   m_Layer: 5
-  m_Name: Canvas 1
+  m_Name: X Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
