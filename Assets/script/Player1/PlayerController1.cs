@@ -19,10 +19,12 @@ public class PlayerController1 : MonoBehaviour
 
     private void Update()
     {
+        if (!PlayerManager1.isGameStarted)
+            return;
         if (controller.isGrounded)
         {
             direction.y = -2;
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (SwipeManager1.swipeUp)
                 Jump();
         }
         else
@@ -32,10 +34,21 @@ public class PlayerController1 : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!PlayerManager1.isGameStarted)
+            return;
+
         controller.Move(direction * Time.fixedDeltaTime);
     }
     private void Jump()
     {
         direction.y = jumpForce;
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.transform.tag=="Obstacle1")
+        {
+            PlayerManager1.gameOver = true;
+        }
     }
 }
