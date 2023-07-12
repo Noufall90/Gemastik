@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47175ca7bb01dcb4fa86709c805839d5
+guid: bf046b6595eec564ba49ad9b941b6a77
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Gray Base Color.001_0: 9169601729043015572
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
