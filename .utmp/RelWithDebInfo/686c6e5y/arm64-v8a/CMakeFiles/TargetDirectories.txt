@@ -1,0 +1,5 @@
+D:/Github/malika/.utmp/RelWithDebInfo/686c6e5y/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Github/malika/.utmp/RelWithDebInfo/686c6e5y/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Github/malika/.utmp/RelWithDebInfo/686c6e5y/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Github/malika/.utmp/RelWithDebInfo/686c6e5y/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Github/malika/.utmp/RelWithDebInfo/686c6e5y/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
