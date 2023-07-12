@@ -305,7 +305,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PickupMarbles
     clip: {fileID: 8300000, guid: 66ab7d58b11a1e24f84ee9b6b6d410b4, type: 3}
-    volume: 0.15
+    volume: 0.2
     loop: 0
     source: {fileID: 0}
   - name: GameOver
@@ -3292,6 +3292,10 @@ PrefabInstance:
     - target: {fileID: 2107242618553888676, guid: 5e5034481973dd64b8205cdafe10b405, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107242618553888676, guid: 5e5034481973dd64b8205cdafe10b405, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 54.07
       objectReference: {fileID: 0}
     - target: {fileID: 2107242618553888676, guid: 5e5034481973dd64b8205cdafe10b405, type: 3}
       propertyPath: m_LocalPosition.x
