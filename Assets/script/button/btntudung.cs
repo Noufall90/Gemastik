@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class tudung : MonoBehaviour
+public class btntudung : MonoBehaviour
 {
     public Button button1;
 

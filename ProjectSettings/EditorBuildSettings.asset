@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game1.unity
     guid: 00504d3a7d1cdf9438b30deb4306b7cb
+  - enabled: 1
+    path: Assets/Scenes/tudung.unity
+    guid: c6f87e270ba0c1d4d8708e6a6bbe4776
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
