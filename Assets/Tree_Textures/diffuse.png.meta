@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bf046b6595eec564ba49ad9b941b6a77
+guid: 1ad4e1ca597481c4ba8a1c100466cc37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9169601729043015572
-    second: Gray Base Color.001_0
+      213: 8410411883959372341
+    second: diffuse_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gray Base Color.001_0
+      name: diffuse_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
+        width: 64
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 497aa6f9038f04f70800000000000000
-      internalID: 9169601729043015572
+      spriteID: 53a4f165c09c7b470800000000000000
+      internalID: 8410411883959372341
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gray Base Color.001_0: 9169601729043015572
+      diffuse_0: 8410411883959372341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

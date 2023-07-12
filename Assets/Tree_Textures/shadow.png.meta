@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: bf046b6595eec564ba49ad9b941b6a77
+guid: 62e4fba6eff201a40933ececa6dabf42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9169601729043015572
-    second: Gray Base Color.001_0
+      213: -4756028443593143600
+    second: shadow_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
+    enableMipMap: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gray Base Color.001_0
+      name: shadow_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
+        width: 64
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 497aa6f9038f04f70800000000000000
-      internalID: 9169601729043015572
+      spriteID: 0da0afd34513ffdb0800000000000000
+      internalID: -4756028443593143600
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gray Base Color.001_0: 9169601729043015572
+      shadow_0: -4756028443593143600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
