@@ -20,6 +20,7 @@ public class Kelereng : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().PlaySound("PickupMarbles");
             PlayerManager.numbOfKelereng += 1;
             Destroy(gameObject);
         }
