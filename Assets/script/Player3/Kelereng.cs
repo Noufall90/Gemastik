@@ -20,6 +20,8 @@ public class Kelereng : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            PlayerManager.numbOfKelereng += 1;
+            Debug.Log("Kelereng:" + PlayerManager.numbOfKelereng);
             Destroy(gameObject);
         }
     }

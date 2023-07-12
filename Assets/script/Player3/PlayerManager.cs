@@ -19,7 +19,7 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = 1;
         isGameStarted = false;
 
-        numbOfKelereng;
+        numbOfKelereng = 0;
     }
 
     // Update is called once per frame
