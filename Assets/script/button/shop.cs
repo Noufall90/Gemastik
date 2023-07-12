@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class shop : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     public Button button1;
 
