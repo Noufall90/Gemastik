@@ -73,6 +73,9 @@ public class SwipeManager1 : MonoBehaviour
                     swipeUp = true;
             }
 
+            // Increase the score value
+            noscore.ScoreValue += 1;
+
             Reset();
         }
 
@@ -84,4 +87,3 @@ public class SwipeManager1 : MonoBehaviour
         isDraging = false;
     }
 }
-
