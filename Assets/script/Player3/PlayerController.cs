@@ -52,12 +52,10 @@ public class PlayerController : MonoBehaviour
             direction.y += gravity * Time.deltaTime;
         //Gather the input of the direction on which lane we should be
 
-        if (controller.isGrounded)
-        {
-            if (SwipeManager.swipeDown);
-                StartCoroutine(Slide());
-        }
-        
+
+        if (SwipeManager.swipeDown);
+            StartCoroutine(Slide());
+       
         if (SwipeManager.swipeRight)
         {
             desiredLane++;
