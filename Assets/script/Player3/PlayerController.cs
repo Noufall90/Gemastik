@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         if (controller.isGrounded)
         {
             if (SwipeManager.swipeDown);
-                Slide();
+                StartCoroutine(Slide());
         }
         
         if (SwipeManager.swipeRight)
@@ -112,15 +112,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Slide()
+    private IEnumerator Slide()
     {
-        // animator.SetBool("isSlide", true);
+        animator.SetBool("isSlide", true);
         controller.center = new Vector3(0, -0.32f, 0);
         controller.height = 1;
-        // yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSeconds(10f);
 
-        // controller.center = new Vector3(0, 0, 0);
-        // controller.height = 2;
-        // animator.SetBool("isSlide", false);
+        controller.center = new Vector3(0, 0, 0);
+        controller.height = 2;
+        animator.SetBool("isSlide", false);
     }
 }

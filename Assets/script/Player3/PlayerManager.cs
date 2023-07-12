@@ -9,6 +9,8 @@ public class PlayerManager : MonoBehaviour
 
     public static bool isGameStarted;
     public GameObject startingText;
+
+    public static int numbOfKelereng;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,8 @@ public class PlayerManager : MonoBehaviour
 
         Time.timeScale = 1;
         isGameStarted = false;
+
+        numbOfKelereng;
     }
 
     // Update is called once per frame
