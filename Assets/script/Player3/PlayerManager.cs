@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -11,6 +12,9 @@ public class PlayerManager : MonoBehaviour
     public GameObject startingText;
 
     public static int numbOfKelereng;
+
+    public Text kelerengText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +35,9 @@ public class PlayerManager : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        if (SwipeManager.tap)
+        kelerengText.text = "Kelereng: " + numbOfKelereng;
+
+        if (SwipeManager.tap && !isGameStarted)
         {
             isGameStarted = true;
             Destroy(startingText);
