@@ -305,7 +305,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PickupMarbles
     clip: {fileID: 8300000, guid: 66ab7d58b11a1e24f84ee9b6b6d410b4, type: 3}
-    volume: 0.2
+    volume: 0.15
     loop: 0
     source: {fileID: 0}
   - name: GameOver
