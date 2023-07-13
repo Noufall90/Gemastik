@@ -1,22 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Quit : MonoBehaviour
+public class quit : MonoBehaviour
 {
-    public void PlayGame()
+    // Start is called before the first frame update
+    void Start()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
-    public void QuitGame()
+    // Update is called once per frame
+    void Update()
     {
-        AutosaveManager autosaveManager = FindObjectOfType<AutosaveManager>();
-        if (autosaveManager != null)
-        {
-            autosaveManager.Autosave();
-        }
         
-        Debug.Log("Anda telah keluar");
+    }
+    public void Quitgame()
+    {
         Application.Quit();
     }
 }
