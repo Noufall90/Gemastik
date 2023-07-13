@@ -5,6 +5,13 @@ public class SwipeManager1 : MonoBehaviour
     public static bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDraging = false;
     private Vector2 startTouch, swipeDelta;
+    private bool isJumping;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -45,9 +52,15 @@ public class SwipeManager1 : MonoBehaviour
         if (isDraging)
         {
             if (Input.touches.Length < 0)
+            {
                 swipeDelta = Input.touches[0].position - startTouch;
+                isJumping = false;
+            }
             else if (Input.GetMouseButton(0))
+            {
                 swipeDelta = (Vector2)Input.mousePosition - startTouch;
+                isJumping = true;
+            }
         }
 
         //Did we cross the distance?
@@ -70,7 +83,10 @@ public class SwipeManager1 : MonoBehaviour
                 if (y < 0)
                     swipeDown = true;
                 else
+                {
                     swipeUp = true;
+                    isJumping = true;
+                }
             }
 
             // Increase the score value
@@ -79,6 +95,8 @@ public class SwipeManager1 : MonoBehaviour
             Reset();
         }
 
+        // Set animator parameter based on isJumping value
+        animator.SetBool("isJumping", isJumping);
     }
 
     private void Reset()
