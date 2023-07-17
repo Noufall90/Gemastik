@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     // Variabel untuk menyimpan data persisten
     public float currentStamina;
 
+    private float maxStamina = 100f; // Nilai maksimum stamina
+
     private void Awake()
     {
         // Membuat singleton instance dari GameManager
@@ -19,5 +21,9 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void ResetStamina()
+    {
+        currentStamina = maxStamina; // Menyetel ulang stamina ke maxStamina
     }
 }

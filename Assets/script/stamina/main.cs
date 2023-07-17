@@ -14,6 +14,10 @@ public class StaminaWheel : MonoBehaviour
 
     private float currentStamina; // Variabel stamina saat ini
 
+    public bool successConditionMet = false; // Kondisi keberhasilan melewati minigame
+
+    private noscore scoreComponent;
+
     void Start()
     {
         // Mengambil nilai stamina terakhir dari GameManager
@@ -27,6 +31,8 @@ public class StaminaWheel : MonoBehaviour
         }
 
         decrementRate = maxStamina / 200f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
+
+
     }
 
     void Update()
@@ -54,6 +60,11 @@ public class StaminaWheel : MonoBehaviour
         if (currentStamina <= 0)
         {
             // Lakukan tindakan ketika stamina habis
+        }
+
+        if (successConditionMet)
+        {
+            noscore.ScoreValue += 10;
         }
     }
 
