@@ -15,6 +15,7 @@ public class noscore : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + ScoreValue;
+        scoreText.text = "Score: 0 " + ScoreValue;
     }
 }
+
