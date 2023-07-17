@@ -29,7 +29,6 @@ public class PlayerController1 : MonoBehaviour
         }
         else
             direction.y += gravity * Time.deltaTime;
-
     }
 
     private void FixedUpdate()

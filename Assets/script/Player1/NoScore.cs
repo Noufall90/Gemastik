@@ -15,7 +15,7 @@ public class noscore : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: 0 " + ScoreValue;
+        scoreText.text = "Lompat: " + ScoreValue; // Perbarui teks skor
     }
 }
 

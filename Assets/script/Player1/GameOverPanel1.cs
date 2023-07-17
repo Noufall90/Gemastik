@@ -9,7 +9,7 @@ public class GameOverPanel1 : MonoBehaviour
     {
         Time.timeScale = 2f;
         SceneManager.LoadScene("game1");
-    
+        noscore.ScoreValue = 0;
         
     }
 
