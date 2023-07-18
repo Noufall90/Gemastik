@@ -9,6 +9,9 @@ public class GameOverPanel1 : MonoBehaviour
     {
         Time.timeScale = 2f;
         SceneManager.LoadScene("game1");
+        noscore.ScoreValue = 0;
+        GameManager.Instance.ResetStamina();
+        //PR Callling Stamina
     }
 
     public void Lanjut()
