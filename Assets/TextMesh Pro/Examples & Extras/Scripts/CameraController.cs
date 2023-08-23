@@ -254,28 +254,28 @@ namespace TMPro.Examples
             }
 
             // Check Pinching to Zoom in - out on Mobile device
-            if (touchCount == 2)
-            {
-                Touch touch0 = Input.GetTouch(0);
-                Touch touch1 = Input.GetTouch(1);
-
-                Vector2 touch0PrevPos = touch0.position - touch0.deltaPosition;
-                Vector2 touch1PrevPos = touch1.position - touch1.deltaPosition;
-
-                float prevTouchDelta = (touch0PrevPos - touch1PrevPos).magnitude;
-                float touchDelta = (touch0.position - touch1.position).magnitude;
-
-                float zoomDelta = prevTouchDelta - touchDelta;
-
-                if (zoomDelta > 0.01f || zoomDelta < -0.01f)
-                {
-                    FollowDistance += zoomDelta * 0.25f;
-                    // Limit FollowDistance between min & max values.
-                    FollowDistance = Mathf.Clamp(FollowDistance, MinFollowDistance, MaxFollowDistance);
-                }
-
-
-            }
+            // if (touchCount == 2)
+            // {
+            //     Touch touch0 = Input.GetTouch(0);
+            //     Touch touch1 = Input.GetTouch(1);
+            //
+            //     Vector2 touch0PrevPos = touch0.position - touch0.deltaPosition;
+            //     Vector2 touch1PrevPos = touch1.position - touch1.deltaPosition;
+            //
+            //     float prevTouchDelta = (touch0PrevPos - touch1PrevPos).magnitude;
+            //     float touchDelta = (touch0.position - touch1.position).magnitude;
+            //
+            //     float zoomDelta = prevTouchDelta - touchDelta;
+            //
+            //     if (zoomDelta > 0.01f || zoomDelta < -0.01f)
+            //     {
+            //         FollowDistance += zoomDelta * 0.25f;
+            //         // Limit FollowDistance between min & max values.
+            //         FollowDistance = Mathf.Clamp(FollowDistance, MinFollowDistance, MaxFollowDistance);
+            //     }
+            //
+            //
+            // }
 
             // Check MouseWheel to Zoom in-out
             if (mouseWheel < -0.01f || mouseWheel > 0.01f)
