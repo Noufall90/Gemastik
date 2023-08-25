@@ -1,20 +1,13 @@
 using UnityEngine;
 
-public class PlayerForce : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    public float downwardForce = 10f; // Gaya ke bawah yang dapat diatur
-
-    private Rigidbody2D rb;
-
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    public float downwardSpeed = 5f; // Kecepatan ke bawah yang dapat diatur
 
     private void Update()
     {
-        // Menerapkan gaya ke bawah pada pemain
-        Vector2 force = new Vector2(0, -downwardForce);
-        rb.AddForce(force);
+        // Menggerakkan pemain ke bawah berdasarkan kecepatan downwardSpeed
+        Vector3 newPosition = transform.position + Vector3.down * downwardSpeed * Time.deltaTime;
+        transform.position = newPosition;
     }
 }
