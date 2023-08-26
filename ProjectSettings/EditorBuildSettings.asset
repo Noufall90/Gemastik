@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tudung.unity
     guid: c6f87e270ba0c1d4d8708e6a6bbe4776
+  - enabled: 1
+    path: Assets/Scenes/layangan.unity
+    guid: 09badb9fa1b476c4ea6b5762e46db9f3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
