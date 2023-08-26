@@ -8,6 +8,7 @@ TagManager:
   - Tile1
   - Obstacle1
   - Tali
+  - Malika
   layers:
   - Default
   - TransparentFX
