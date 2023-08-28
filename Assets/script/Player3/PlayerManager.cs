@@ -16,14 +16,18 @@ public class PlayerManager : MonoBehaviour
     public Text kelerengText;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         gameOver = false;
+        numbOfKelereng = PlayerPrefs.GetInt("Kelereng", 0);
 
         Time.timeScale = 1;
         isGameStarted = false;
 
-        numbOfKelereng = 0;
+    } 
+    void Start()
+    {
+      
     }
 
     // Update is called once per frame
@@ -35,7 +39,7 @@ public class PlayerManager : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        kelerengText.text = "Kelereng: " + numbOfKelereng;
+        kelerengText.text =  numbOfKelereng.ToString();
 
         if (SwipeManager.tap && !isGameStarted)
         {

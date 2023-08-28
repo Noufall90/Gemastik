@@ -8,7 +8,7 @@ public class GameOverPanel : MonoBehaviour
     public void ReplayGame()
     {
         Time.timeScale = 2f;
-        SceneManager.LoadScene("game3");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Lanjut()
