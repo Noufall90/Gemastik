@@ -37,7 +37,7 @@ public class PlayerManager2 : MonoBehaviour
 
         kelerengText.text = "Kelereng: " + numbOfKelereng;
 
-        if (SwipeManager.tap && !isGameStarted)
+        if (SwipeManager2.tap && !isGameStarted)
         {
             isGameStarted = true;
             Destroy(startingText);

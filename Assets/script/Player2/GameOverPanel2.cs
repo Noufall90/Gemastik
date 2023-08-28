@@ -5,7 +5,7 @@ public class GameOverPanel2 : MonoBehaviour
 {
     [SerializeField] GameObject replayGame;
 
-    public void ReplayGame()
+    public void ReplayGame() 
     {
         Time.timeScale = 2f;
         SceneManager.LoadScene("game2");
