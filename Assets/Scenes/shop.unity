@@ -222,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 435e9d05d35ddef41b01e846f2da9bca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 695
+      value: 933
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 435e9d05d35ddef41b01e846f2da9bca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1397,7 +1397,7 @@ GameObject:
   - component: {fileID: 1298258545}
   - component: {fileID: 1298258549}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasSemua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,7 +1552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 489f07de0729b7045ae39e04105a8f76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 230
+      value: 447
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 489f07de0729b7045ae39e04105a8f76, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1657,7 +1657,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1168.8
+  far clip plane: 1632.59
   field of view: 60
   orthographic: 1
   orthographic size: 687.5981
@@ -1768,8 +1768,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606029673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.18555857, y: -10.099834, z: -9.034943}
-  m_LocalScale: {x: 1.6855243, y: 1.6855243, z: 1.6855243}
+  m_LocalPosition: {x: 0.18555857, y: -10.12, z: -9.034943}
+  m_LocalScale: {x: 3.18, y: 3.18, z: 3.18}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1677516681}
@@ -1852,7 +1852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677516679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.9547477, y: 22.33863, z: 1471.1548}
+  m_LocalPosition: {x: -4.9547477, y: 22.33863, z: 1709.1548}
   m_LocalScale: {x: 83.90948, y: 83.90948, z: 83.90948}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2139,8 +2139,8 @@ Transform:
   m_GameObject: {fileID: 2079242347}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2246257, y: 1.2246257, z: 1.2246257}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1.2246257, y: 1.47, z: 1.2246257}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1677516681}
   m_RootOrder: -1
