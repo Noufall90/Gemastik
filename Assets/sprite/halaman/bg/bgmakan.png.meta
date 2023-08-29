@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -94,11 +94,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg utama 1_0
+      name: bgmakan_0
       rect:
         serializedVersion: 2
         x: 0
@@ -110,10 +122,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a802b55a21ce3ac0800000000000000
-      internalID: -3873446241921529691
+      spriteID: 8dedf4df76188564e9e602cda1c831a0
+      internalID: 1430906163
       vertices: []
       indices: 
       edges: []
@@ -121,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 36ca4465cac6d54409fe03bebae879f7
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bg utama 1_0: -3873446241921529691
+      bgmakan_0: 1430906163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
