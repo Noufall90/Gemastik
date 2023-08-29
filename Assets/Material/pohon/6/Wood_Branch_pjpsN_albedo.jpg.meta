@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wood_Branch_pjpsN_albedo_0: -5544553420286380921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PalmLeaf_2_0: -751608425457186864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

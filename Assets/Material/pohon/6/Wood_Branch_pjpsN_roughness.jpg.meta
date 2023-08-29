@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wood_Branch_pjpsN_roughness_0: -4108148124243072768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

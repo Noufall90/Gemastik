@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pineTexture--stylizedTree-01-color_0: 8581473834020282941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

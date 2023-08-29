@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StylizedTree_Base_color_0: -969964160689828278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrassAlpha.tga_0: -8621047568499438306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
