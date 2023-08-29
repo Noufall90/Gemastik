@@ -25,9 +25,9 @@ public class PlayerManager : MonoBehaviour
         Quaternion newRotation = Quaternion.Euler(0, 180, 0);
         transform.rotation = newRotation;
         
-        characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
-
-        Instantiate(playerPrefabs[characterIndex], lastCheckPointPos, transform.rotation);
+        // characterIndex = PlayerPrefs.GetInt("SelectionCharacter", 0);
+        //
+        // Instantiate(playerPrefabs[characterIndex], lastCheckPointPos, transform.rotation);
         gameOver = false;
         numbOfKelereng = PlayerPrefs.GetInt("Kelereng", 0);
 
