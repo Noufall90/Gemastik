@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bark_4_Bake1_pbr_diffuse_0: 7779004731920024747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

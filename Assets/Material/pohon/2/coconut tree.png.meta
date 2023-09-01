@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coconut tree_0: -2998347501500848501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

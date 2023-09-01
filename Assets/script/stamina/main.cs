@@ -16,7 +16,7 @@ public class StaminaWheel : MonoBehaviour
 
     public bool successConditionMet = false; // Kondisi keberhasilan melewati minigame
 
-    private noscore scoreComponent;
+   /*  private noscore scoreComponent; */
 
     void Start()
     {
@@ -60,12 +60,9 @@ public class StaminaWheel : MonoBehaviour
         if (currentStamina <= 0)
         {
             // Lakukan tindakan ketika stamina habis
+            Reset();
         }
 
-        if (successConditionMet)
-        {
-            noscore.ScoreValue += 10;
-        }
     }
 
     private void ChangeSliderColor(Color color)
@@ -91,5 +88,10 @@ public class StaminaWheel : MonoBehaviour
         {
             GameManager.Instance.currentStamina = currentStamina;
         }
+    }
+
+    private void Reset()
+    {
+      Debug.Log("Reset");
     }
 }

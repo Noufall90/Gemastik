@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grassClover-uv-BaseColor_0: 6644864826993985280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

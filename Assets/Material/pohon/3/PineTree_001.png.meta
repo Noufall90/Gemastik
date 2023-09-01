@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PineTree_001_0: 7770249800681886635
+      PineTree_001_1: 4343429424163716044
+      PineTree_001_2: -6068756460673737699
+      PineTree_001_3: 8547051661487402204
+      PineTree_001_4: 4598432842961839279
+      PineTree_001_5: 3049493523243731826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

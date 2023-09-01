@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wood_Branch_pjpsN_displacement_0: -5288857911834320300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
