@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rock_20_roughness (4096)_0: 530371619989505861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

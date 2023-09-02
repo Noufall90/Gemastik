@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Group53036_albedo.tga_0: -7876168604432671225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

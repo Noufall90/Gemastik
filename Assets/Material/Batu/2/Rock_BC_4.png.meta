@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rock_BC_4_0: 4281597242252167321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

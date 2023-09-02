@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tree Big Sway Text_0: -1940030428919263897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

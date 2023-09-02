@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Group53036_roughness.tga_0: -5507327348156544324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

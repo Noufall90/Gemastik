@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      red_laterite_soil_stones_nor_gl_1k_0: 3461485349800967594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

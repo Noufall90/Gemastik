@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rocky_Dirt_basecolor_0: -2556276571590913334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

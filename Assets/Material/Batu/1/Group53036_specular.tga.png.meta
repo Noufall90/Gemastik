@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Group53036_specular.tga_0: -6095761796880390109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

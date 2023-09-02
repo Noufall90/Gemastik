@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LeavesGold3_0: 975553072577668900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

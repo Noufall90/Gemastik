@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rocky_Dirt_ambientocclusion_0: -6222484850691662091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

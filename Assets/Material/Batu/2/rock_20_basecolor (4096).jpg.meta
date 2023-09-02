@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rock_20_basecolor (4096)_0: -2053064972669902731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
