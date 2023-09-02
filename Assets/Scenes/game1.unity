@@ -1888,12 +1888,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 100393478}
-<<<<<<< HEAD
-=======
-  - {fileID: 719534327}
-  - {fileID: 7203546}
-  - {fileID: 788594353}
->>>>>>> 570692049185a69e8f06db6a30cb2c8ec19c2311
   - {fileID: 737107987}
   - {fileID: 502323954}
   m_Father: {fileID: 0}
