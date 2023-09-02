@@ -26,7 +26,7 @@ public class makan : MonoBehaviour
             currentStamina = maxStamina;
         }
 
-        decrementRate = maxStamina / 270f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
+        decrementRate = maxStamina / 200f; // Menghitung pengurangan stamina per detik (60 detik = 1 menit)
     }
 
     void Update()
@@ -72,18 +72,24 @@ public class makan : MonoBehaviour
             }
         }
     }
-
-    public void IncreaseStamina()
+    
+    public void ResetStamina()
     {
-        currentStamina = Mathf.Min(currentStamina + 10f, maxStamina); // Menambah stamina sebanyak 10
-    }
+        currentStamina = maxStamina;
+        timeCounter = 0f;
 
+        // Simpan nilai stamina yang sudah direset ke PlayerPrefs
+        PlayerPrefs.SetFloat("MakanStamina", currentStamina);
+        PlayerPrefs.Save();
+    }
     private void OnDestroy()
     {
         // Menyimpan nilai stamina ke GameManager saat objek dihancurkan
         if (GameManager.Instance != null)
         {
             GameManager.Instance.currentStamina = currentStamina;
-        }
+            PlayerPrefs.SetFloat("MakanStamina", currentStamina);
+            PlayerPrefs.Save();
+        }   
     }
 }
