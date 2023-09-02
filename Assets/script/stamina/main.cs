@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class StaminaWheel : MonoBehaviour
 {
+    
     public float maxStamina = 100f; // Nilai maksimum stamina
     public Slider usageWheel; // Slider untuk menampilkan penggunaan stamina
 
@@ -15,6 +16,8 @@ public class StaminaWheel : MonoBehaviour
     private float currentStamina; // Variabel stamina saat ini
 
     public bool successConditionMet = false; // Kondisi keberhasilan melewati minigame
+
+    private bool isButtonPressed = false; // Status tombol
 
    /*  private noscore scoreComponent; */
 
@@ -41,7 +44,7 @@ public class StaminaWheel : MonoBehaviour
 
         currentStamina = Mathf.Max(currentStamina - (decrementRate * Time.deltaTime), 0f); // Mengurangi stamina dengan pengurangan per detik
 
-        Debug.Log("Current Stamina: " + currentStamina);
+        // Debug.Log("Current Stamina: " + currentStamina);
 
         if (usageWheel != null)
         {
@@ -60,9 +63,27 @@ public class StaminaWheel : MonoBehaviour
         if (currentStamina <= 0)
         {
             // Lakukan tindakan ketika stamina habis
-            Reset();
         }
-
+        
+        if (isButtonPressed)
+        {
+            // Reset timeCounter dan currentStamina ke nilai awal
+            timeCounter = 0f;
+            currentStamina = maxStamina; // Reset stamina ke nilai maksimum
+            isButtonPressed = false; // Reset status tombol
+        }
+        else
+        {
+            timeCounter += Time.deltaTime;
+            // Logika
+        }
+    }
+    
+    public void ResetStamina()
+    {
+      // Reset timeCounter dan currentStamina ke nilai awal
+      timeCounter = 0f;
+      currentStamina = maxStamina; // Reset stamina ke nilai maksimum
     }
 
     private void ChangeSliderColor(Color color)
@@ -90,8 +111,8 @@ public class StaminaWheel : MonoBehaviour
         }
     }
 
-    private void Reset()
+    public void OnResetButtonPressed()
     {
-      Debug.Log("Reset");
+      isButtonPressed = true;
     }
 }
