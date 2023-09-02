@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stylised_Roof_Shingles_basecolor_0: 586826892617489968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

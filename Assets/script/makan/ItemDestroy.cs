@@ -12,6 +12,13 @@ public class ItemDestroy : MonoBehaviour, IDropHandler
     {
       Destroy(eventData.pointerDrag);
       // logika pemanggilan reset stamina 
+      makan scriptMakan = FindObjectOfType<makan>();
+
+        // Pastikan script "makan.cs" ditemukan sebelum memanggil metodenya
+        if (scriptMakan != null)
+        {
+            scriptMakan.ResetStamina(); // Panggil metode ResetStamina untuk mereset stamina
+        }    
     }
   }
 }

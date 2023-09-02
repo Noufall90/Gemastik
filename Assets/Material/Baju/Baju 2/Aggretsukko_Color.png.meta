@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aggretsukko_Color_0: -4551309433549383040
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

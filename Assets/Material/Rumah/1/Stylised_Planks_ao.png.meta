@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stylised_Planks_ao_0: -745462075320281001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

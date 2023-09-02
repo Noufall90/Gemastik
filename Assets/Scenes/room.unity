@@ -1413,7 +1413,7 @@ GameObject:
   - component: {fileID: 279534941}
   - component: {fileID: 279534940}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameManager
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -71,6 +71,14 @@ public class StaminaWheel : MonoBehaviour
             timeCounter = 0f;
             currentStamina = maxStamina; // Reset stamina ke nilai maksimum
             isButtonPressed = false; // Reset status tombol
+
+            // Menyimpan nilai stamina ke GameManager
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.currentStamina = currentStamina;
+                PlayerPrefs.SetFloat("RoomStamina", currentStamina);
+                PlayerPrefs.Save();
+            }
         }
         else
         {
@@ -84,6 +92,8 @@ public class StaminaWheel : MonoBehaviour
       // Reset timeCounter dan currentStamina ke nilai awal
       timeCounter = 0f;
       currentStamina = maxStamina; // Reset stamina ke nilai maksimum
+      PlayerPrefs.SetFloat("RoomStamina", currentStamina);
+      PlayerPrefs.Save();
     }
 
     private void ChangeSliderColor(Color color)
@@ -105,9 +115,13 @@ public class StaminaWheel : MonoBehaviour
     private void OnDestroy()
     {
         // Menyimpan nilai stamina ke GameManager saat objek dihancurkan
+        PlayerPrefs.SetFloat("RoomStamina", currentStamina);
+        PlayerPrefs.Save();
         if (GameManager.Instance != null)
         {
             GameManager.Instance.currentStamina = currentStamina;
+            PlayerPrefs.SetFloat("RoomStamina", currentStamina);
+            PlayerPrefs.Save();
         }
     }
 

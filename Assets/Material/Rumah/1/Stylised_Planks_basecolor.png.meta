@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stylised_Planks_basecolor_0: -4417211516320356476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
