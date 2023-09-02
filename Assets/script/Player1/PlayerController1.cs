@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class PlayerController1 : MonoBehaviour
 {
     private CharacterController controller;
@@ -10,7 +10,7 @@ public class PlayerController1 : MonoBehaviour
     public float jumpForce;
     private bool isGrounded = false;
     public float gravity;
-
+    
 
     private void Start()
     {
@@ -49,5 +49,5 @@ public class PlayerController1 : MonoBehaviour
         {
             PlayerManager1.gameOver = true;
         }
-    }
+    } 
 }

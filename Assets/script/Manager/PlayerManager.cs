@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject startingText;
  
     public static int numbOfKelereng;
-    public Text kelerengText;
+    public TextMeshProUGUI kelerengText;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -32,7 +33,7 @@ public class PlayerManager : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        kelerengText.text =  numbOfKelereng.ToString();
+        kelerengText.text = numbOfKelereng.ToString();
 
         if (SwipeManager.tap && !isGameStarted)
         {

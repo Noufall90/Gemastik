@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class MalikaManager : MonoBehaviour
 {
     public static Vector3 lastCheckPointPos;
@@ -10,7 +10,7 @@ public class MalikaManager : MonoBehaviour
     int characterIndex;
 
     public static int numbOfKelereng;
-    public Text kelerengText;
+    public TextMeshProUGUI kelerengText;
     // Start is called before the first frame update
     void Start()
     {
