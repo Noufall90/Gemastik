@@ -98,6 +98,7 @@ public class SwipeManager1 : MonoBehaviour
         // Set animator parameter based on isJumping value
         animator.SetBool("isJumping", isJumping);
     }
+    
 
     private void Reset()
     {
