@@ -3275,6 +3275,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 908850900246345363, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999964
+      objectReference: {fileID: 0}
+    - target: {fileID: 908850900246345363, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0008726948
+      objectReference: {fileID: 0}
+    - target: {fileID: 908850900246345363, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908850900246345363, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908850900246345363, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2540940509141884699, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3323,6 +3343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile1
       objectReference: {fileID: 0}
+    - target: {fileID: 8090667872316523810, guid: 214e977045bed8044a3cbfa1b082bc2a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 47e87263f034c28408b848772b906e17, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
