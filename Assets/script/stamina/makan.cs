@@ -35,7 +35,7 @@ public class makan : MonoBehaviour
 
         currentStamina = Mathf.Max(currentStamina - (decrementRate * Time.deltaTime), 0f); // Mengurangi stamina dengan pengurangan per detik
 
-        Debug.Log("Current Stamina: " + currentStamina);
+        // Debug.Log("Current Stamina: " + currentStamina);
 
         if (usageWheel != null)
         {

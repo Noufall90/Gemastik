@@ -14,6 +14,7 @@ public class MalikaManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Identifikasi posisi karakter
         lastCheckPointPos = new Vector3 (555, 235, 218);
         transform.rotation = Quaternion.identity;
         Quaternion newRotation = Quaternion.Euler(0, 180, 0);
