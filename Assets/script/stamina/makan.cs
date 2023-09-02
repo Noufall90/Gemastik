@@ -73,6 +73,11 @@ public class makan : MonoBehaviour
         }
     }
 
+    public void IncreaseStamina()
+    {
+        currentStamina = Mathf.Min(currentStamina + 10f, maxStamina); // Menambah stamina sebanyak 10
+    }
+
     private void OnDestroy()
     {
         // Menyimpan nilai stamina ke GameManager saat objek dihancurkan

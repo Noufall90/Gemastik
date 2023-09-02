@@ -309,6 +309,7 @@ MonoBehaviour:
   information:
   - {fileID: 751811640}
   - {fileID: 412366837}
+  - {fileID: 751811640}
   selectedCharacter: 3
   characters:
   - name: Idle
