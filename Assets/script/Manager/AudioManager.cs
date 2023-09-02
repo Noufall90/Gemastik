@@ -16,6 +16,7 @@ public class AudioManager : MonoBehaviour
         }
 
         PlaySound("MainTheme");
+        PlaySound("HaloMalika");
     }
 
     // Update is called once per frame
