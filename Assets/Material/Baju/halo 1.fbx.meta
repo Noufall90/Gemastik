@@ -3,7 +3,12 @@ guid: 43016e03071a6a84fa73170d9fedfea5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badan
+    second: {fileID: 2100000, guid: 993314ac4b4e05b61b55000df9e0b577, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

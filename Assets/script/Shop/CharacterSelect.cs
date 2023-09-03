@@ -52,8 +52,8 @@ public class CharacterSelect : MonoBehaviour
           selectedCharacter = 0;
           selectedInformation = 0;
         }
-          skins[selectedCharacter].SetActive(true);
-          information[selectedInformation].SetActive(true);
+        skins[selectedCharacter].SetActive(true);
+        information[selectedInformation].SetActive(true);
 
         if (characters[selectedCharacter].isUnlocked)
         {
@@ -80,7 +80,7 @@ public class CharacterSelect : MonoBehaviour
         if (selectedCharacter == -1)
         {
           selectedCharacter = skins.Length - 1;
-          selectedInformation = skins.Length - 1;
+          selectedInformation = information.Length - 1;
         }
         skins[selectedCharacter].SetActive(true);
         information[selectedInformation].SetActive(true);
@@ -127,6 +127,7 @@ public class CharacterSelect : MonoBehaviour
       int price = characters[selectedCharacter].price;
       PlayerPrefs.SetInt("Kelereng", coins - price);
       PlayerPrefs.SetInt(characters[selectedCharacter].name, 1);
+      PlayerPrefs.SetInt("SelectedInformation", selectedInformation);
       PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);
       characters[selectedCharacter].isUnlocked = true;
       UpdateUI();
