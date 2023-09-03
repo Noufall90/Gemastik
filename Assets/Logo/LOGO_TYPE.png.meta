@@ -1,10 +1,49 @@
 fileFormatVersion: 2
-guid: 8f1331404a622ca43a6358435cf4ffab
+guid: c1150a9aae3538244b1d8a1f00a635fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6619289278300874476
-    second: NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0
+      213: 2869755379513742736
+    second: LOGO_TYPE_0
+  - first:
+      213: -7086335143285259398
+    second: LOGO_TYPE_1
+  - first:
+      213: 7581464568443630564
+    second: LOGO_TYPE_2
+  - first:
+      213: -6973527463192432876
+    second: LOGO_TYPE_3
+  - first:
+      213: 1420519089255744607
+    second: LOGO_TYPE_4
+  - first:
+      213: 5722253346580570387
+    second: LOGO_TYPE_5
+  - first:
+      213: -3374223601097276274
+    second: LOGO_TYPE_6
+  - first:
+      213: 98305786366226212
+    second: LOGO_TYPE_7
+  - first:
+      213: -3688652722335987127
+    second: LOGO_TYPE_8
+  - first:
+      213: 1589398845401555426
+    second: LOGO_TYPE_9
+  - first:
+      213: -4099004441925150297
+    second: LOGO_TYPE_10
+  - first:
+      213: 6664730748456164550
+    second: LOGO_TYPE_11
+  - first:
+      213: -2834828995242152252
+    second: LOGO_TYPE_12
+  - first:
+      213: 1861701336266695861
+    second: LOGO_TYPE_13
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +149,30 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0
+      name: LOGO_TYPE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 705
-        height: 842
+        width: 7736
+        height: 3702
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      outline:
+      - - {x: 0, y: -1851}
+        - {x: 3868, y: 0}
+        - {x: 0, y: 1851}
+        - {x: -3868, y: 0}
+      physicsShape:
+      - - {x: 0, y: -1851}
+        - {x: 3868, y: 0}
+        - {x: 0, y: 1851}
+        - {x: -3868, y: 0}
+      tessellationDetail: 0
       bones: []
-      spriteID: ce6eca237807cdb50800000000000000
-      internalID: 6619289278300874476
+      spriteID: 781a3b83a5cdc8208877d8e1af487c01
+      internalID: 400385851
       vertices: []
       indices: 
       edges: []
@@ -133,7 +180,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dd1eba964bfd8fcf5be18ec579c002e0
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +188,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0: 6619289278300874476
+      LOGO_TYPE_0: 400385851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

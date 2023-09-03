@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public static event Action<Enemy> OnEnemyKilled;
+    // public static event Action<Enemy> OnEnemyKilled;
     [SerializeField]float health, maxHealth = 3f;
 
     [SerializeField] float moveSpeed;
@@ -18,12 +18,12 @@ public class HealthBar : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        healthbar = GetComponentInChildrent<HealthBar>()1;
+        // healthbar = GetComponentInChildrent<HealthBar>()1;
     }
     private void Start()
     {
         health = maxHealth;
-        target= GameObject.Find("player").transform
+        // target= GameObject.Find("player").transform
     }
 
     // Update is called once per frame

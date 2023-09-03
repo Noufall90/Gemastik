@@ -4,11 +4,13 @@ using UnityEngine;
 public class GameOverPanel : MonoBehaviour
 {
     [SerializeField] GameObject replayGame;
-
+    public StaminaWheel staminaWheel;
     public void ReplayGame()
     {
         Time.timeScale = 2f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        staminaWheel.ResetStamina();
+        
     }
 
     public void Lanjut()
