@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bdce04f14e6cb8b4392c583c5ee2f77e
+guid: 820532bd7adf07a4b80ad1a950e6067f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1643695292289321980
-    second: tutor 3_0
+      213: -1886605992355543997
+    second: baju_2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutor 3_0
+      name: baju_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 404fc1027db6039e0800000000000000
-      internalID: -1643695292289321980
+      spriteID: 344468a78dd61d5e0800000000000000
+      internalID: -1886605992355543997
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tutor 3_0: -1643695292289321980
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f1331404a622ca43a6358435cf4ffab
+guid: e69d37898aaeb4a48a75a2c00fd78073
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6619289278300874476
-    second: NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0
+      213: -9155777588550935496
+    second: baju_3_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0
+      name: baju_3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce6eca237807cdb50800000000000000
-      internalID: 6619289278300874476
+      spriteID: 83c50f7eac420f080800000000000000
+      internalID: -9155777588550935496
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      NAMA PAKAIAN  Ta'a Sapei Sapaq ASAL PAKAIAN  Kalimantan Timur_0: 6619289278300874476
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
