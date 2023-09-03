@@ -7,7 +7,7 @@ public class Dialogue
 {
     public string name;
 
-    [TextArea(3, 10)]
+    [TextArea(10, 20)]
     public string[] sentences;
     // Start is called before the first frame update
     void Start()
