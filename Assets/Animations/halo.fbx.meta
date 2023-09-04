@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: haloo.001|Armature|mixamo.com|Layer0
-      takeName: haloo.001|Armature|mixamo.com|Layer0
+      name: haloo.001|Armature|mixamo.com|Layer0.006 (1)
+      takeName: haloo.001|Armature|mixamo.com|Layer0.006
       internalID: 4079015456015770234
       firstFrame: 0
-      lastFrame: 24
+      lastFrame: 122
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
