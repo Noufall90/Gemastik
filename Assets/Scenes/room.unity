@@ -945,7 +945,6 @@ GameObject:
   m_Component:
   - component: {fileID: 202949952}
   - component: {fileID: 202949954}
-  - component: {fileID: 202949953}
   m_Layer: 5
   m_Name: Slider tidur
   m_TagString: Untagged
@@ -975,18 +974,6 @@ RectTransform:
   m_AnchoredPosition: {x: 429, y: -842}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &202949953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31c1514c53ca974296d04f0b66fbae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &202949954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,7 +1383,6 @@ GameObject:
   m_Component:
   - component: {fileID: 378316938}
   - component: {fileID: 378316940}
-  - component: {fileID: 378316939}
   m_Layer: 5
   m_Name: Slider toilet
   m_TagString: Untagged
@@ -1426,18 +1412,6 @@ RectTransform:
   m_AnchoredPosition: {x: 213, y: -844}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &378316939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378316937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8329c494527a5d14bb192bd16f0499a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &378316940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1849,8 +1823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7, y: 7.7}
-  m_SizeDelta: {x: 696.6, y: 332.5}
+  m_AnchoredPosition: {x: -26.5, y: 7.7}
+  m_SizeDelta: {x: 139.8, y: 332.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569727393
 MonoBehaviour:
@@ -2967,7 +2941,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1203741443
 GameObject:
@@ -3505,7 +3479,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480098424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -386.77634}
+  m_LocalPosition: {x: 0, y: 0, z: -58.776337}
   m_LocalScale: {x: 0.04854369, y: 0.38860103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3514,7 +3488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.5, y: 21.69}
+  m_AnchoredPosition: {x: 15.339806, y: 20.984455}
   m_SizeDelta: {x: 266.3622, y: 38.9812}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1480098426
@@ -4575,57 +4549,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721897974}
   m_CullTransparentMesh: 1
---- !u!1 &1769418317
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1769418319}
-  - component: {fileID: 1769418318}
-  m_Layer: 0
-  m_Name: Linda
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1769418318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769418317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd7bcdac331b4cc2eaec2c02774609e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: linda
-    sentences:
-    - por
-    - roti
-    - yoo
-  pauseMenu: {fileID: 81579438}
---- !u!4 &1769418319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769418317}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1087.8787, y: 218.81506, z: 386.77637}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1773525856
 GameObject:
   m_ObjectHideFlags: 0

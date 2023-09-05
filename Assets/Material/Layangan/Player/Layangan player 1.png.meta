@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Layangan player 1_0: 6596967605135015467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
