@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: de18dae4a9bee05aa8cae1870de8a674
+guid: 9796df8fa9a3b04479e8cdd9d7903db9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7501010157040120789
-    second: 1693897031829_0
+      213: -7897594730238666101
+    second: egrang_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1693897031829_0
+      name: egrang_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 9
-        width: 912
-        height: 936
+        x: 0
+        y: 0
+        width: 340
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d339faeef0f81860800000000000000
-      internalID: 7501010157040120789
+      spriteID: b8a9024af6b166290800000000000000
+      internalID: -7897594730238666101
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      1693897031829_0: 7501010157040120789
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
