@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pulau_indonesia_Mixed_AO_0: -4139880615103144846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
