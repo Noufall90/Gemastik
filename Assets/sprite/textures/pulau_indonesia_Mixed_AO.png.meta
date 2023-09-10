@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9796df8fa9a3b04479e8cdd9d7903db9
+guid: 58c65b39586585dc6bcf1955312c22f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7897594730238666101
-    second: egrang_0
+      213: -4139880615103144846
+    second: pulau_indonesia_Mixed_AO_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: egrang_0
+      name: pulau_indonesia_Mixed_AO_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 340
-        height: 400
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8a9024af6b166290800000000000000
-      internalID: -7897594730238666101
+      spriteID: 27c504cb3803c86c0800000000000000
+      internalID: -4139880615103144846
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      egrang_0: -7897594730238666101
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

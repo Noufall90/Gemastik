@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bdb69a92bb83da93887b54628c83baf5
+guid: 712b7046466c76d3c832a12f620d3c15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6118089872940209762
-    second: laut_0
+      213: 8969640557910652537
+    second: pin_5Surface_Color_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: laut_0
+      name: pin_5Surface_Color_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2000
-        height: 1444
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e99eb73fcad281ba0800000000000000
-      internalID: -6118089872940209762
+      spriteID: 976733170909a7c70800000000000000
+      internalID: 8969640557910652537
       vertices: []
       indices: 
       edges: []
