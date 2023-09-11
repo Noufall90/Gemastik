@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15894975, g: 0.51743203, b: 1.0385975, a: 1}
+  m_IndirectSpecularColor: {r: 0.15884578, g: 0.5173287, b: 1.0391194, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 31221179}
   - component: {fileID: 31221178}
   m_Layer: 0
-  m_Name: pin 3 (7)
+  m_Name: lampung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,8 +430,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31221176}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 610, y: -1798.2251, z: 2875}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 127951929}
   - component: {fileID: 127951928}
   m_Layer: 0
-  m_Name: pin 3 (13)
+  m_Name: jawa timur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1163,8 +1163,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127951926}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 383, y: -1798.2251, z: 2353}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -1584,7 +1584,7 @@ Transform:
   m_GameObject: {fileID: 203884623}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
   m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -1954,7 +1954,7 @@ GameObject:
   - component: {fileID: 216109913}
   - component: {fileID: 216109912}
   m_Layer: 0
-  m_Name: pin 3 (14)
+  m_Name: kalbara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1968,8 +1968,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216109910}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 1267, y: -1798.2251, z: 2095}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -3487,7 +3487,7 @@ GameObject:
   - component: {fileID: 432054501}
   - component: {fileID: 432054500}
   m_Layer: 0
-  m_Name: pin 3 (9)
+  m_Name: bangka belitung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3501,8 +3501,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432054498}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 830, y: -1798.2251, z: 2812}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -4068,7 +4068,7 @@ GameObject:
   - component: {fileID: 482780259}
   - component: {fileID: 482780258}
   m_Layer: 0
-  m_Name: pin 3 (20)
+  m_Name: sulawesi utara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4082,8 +4082,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482780256}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 1168, y: -1798.2251, z: 1518}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -4211,7 +4211,7 @@ GameObject:
   - component: {fileID: 491124395}
   - component: {fileID: 491124394}
   m_Layer: 0
-  m_Name: pin 3 (10)
+  m_Name: banten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4225,8 +4225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491124392}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 510, y: -1798.2251, z: 2813}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -4354,7 +4354,7 @@ GameObject:
   - component: {fileID: 499039597}
   - component: {fileID: 499039596}
   m_Layer: 0
-  m_Name: pin 3 (11)
+  m_Name: jawa barat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4368,8 +4368,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499039594}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 432, y: -1798.2251, z: 2716}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -4497,7 +4497,7 @@ GameObject:
   - component: {fileID: 503978222}
   - component: {fileID: 503978221}
   m_Layer: 0
-  m_Name: pin 3 (23)
+  m_Name: bali
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4511,8 +4511,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503978219}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 316, y: -1798.2251, z: 2217}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -5463,7 +5463,7 @@ GameObject:
   - component: {fileID: 718316445}
   - component: {fileID: 718316444}
   m_Layer: 0
-  m_Name: pin 3 (3)
+  m_Name: Sulawesi selatan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5477,8 +5477,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718316442}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 578, y: -1798.2251, z: 1904}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -5728,7 +5728,7 @@ Transform:
   m_GameObject: {fileID: 758450516}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
   m_LocalPosition: {x: 1087, y: -1804, z: 2207}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -6311,7 +6311,7 @@ GameObject:
   - component: {fileID: 783159584}
   - component: {fileID: 783159583}
   m_Layer: 0
-  m_Name: pin 3 (24)
+  m_Name: NTT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6325,8 +6325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783159581}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 303, y: -1798.2251, z: 1794}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -6454,7 +6454,7 @@ GameObject:
   - component: {fileID: 801460911}
   - component: {fileID: 801460910}
   m_Layer: 0
-  m_Name: pin 3 (5)
+  m_Name: Bengkulu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6468,8 +6468,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801460908}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 711, y: -1798.2251, z: 3076}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -7311,7 +7311,7 @@ GameObject:
   - component: {fileID: 857613216}
   - component: {fileID: 857613215}
   m_Layer: 0
-  m_Name: pin 3 (6)
+  m_Name: jambi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7325,8 +7325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857613213}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 893, y: -1798.2251, z: 3063}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -7770,7 +7770,7 @@ GameObject:
   - component: {fileID: 904698369}
   - component: {fileID: 904698368}
   m_Layer: 0
-  m_Name: pin 3 (26)
+  m_Name: maluku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7784,8 +7784,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904698366}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 775, y: -1798.2251, z: 1297}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -8390,7 +8390,7 @@ GameObject:
   - component: {fileID: 982597822}
   - component: {fileID: 982597821}
   m_Layer: 0
-  m_Name: pin 3 (27)
+  m_Name: maluku utara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8404,8 +8404,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982597819}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1337}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -8668,7 +8668,7 @@ GameObject:
   - component: {fileID: 1015860687}
   - component: {fileID: 1015860686}
   m_Layer: 0
-  m_Name: pin 3 (15)
+  m_Name: kalsel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8682,8 +8682,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015860684}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 805, y: -1798.2251, z: 2176}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -9817,7 +9817,7 @@ GameObject:
   - component: {fileID: 1119773654}
   - component: {fileID: 1119773653}
   m_Layer: 0
-  m_Name: pin 3 (21)
+  m_Name: sulawesi tenggara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9831,8 +9831,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119773651}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 641, y: -1798.2251, z: 1717}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -10306,7 +10306,7 @@ GameObject:
   - component: {fileID: 1200028414}
   - component: {fileID: 1200028413}
   m_Layer: 0
-  m_Name: pin 3 (12)
+  m_Name: yogyakarta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10320,8 +10320,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200028411}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 355, y: -1798.2251, z: 2451}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -10543,7 +10543,7 @@ GameObject:
   - component: {fileID: 1205924036}
   - component: {fileID: 1205924035}
   m_Layer: 0
-  m_Name: pin 3 (16)
+  m_Name: kalteng
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10557,8 +10557,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205924033}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 954, y: -1798.2251, z: 2286}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -10686,7 +10686,7 @@ GameObject:
   - component: {fileID: 1220804258}
   - component: {fileID: 1220804257}
   m_Layer: 0
-  m_Name: pin 3 (4)
+  m_Name: Papua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10700,8 +10700,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220804255}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 791, y: -1798.2251, z: 698}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -11580,7 +11580,7 @@ GameObject:
   - component: {fileID: 1341673920}
   - component: {fileID: 1341673919}
   m_Layer: 0
-  m_Name: pin 3 (22)
+  m_Name: sulawesi selatan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11594,8 +11594,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341673917}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 659, y: -1798.2251, z: 1857}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -12182,7 +12182,7 @@ GameObject:
   - component: {fileID: 1380268630}
   - component: {fileID: 1380268629}
   m_Layer: 0
-  m_Name: pin 3 (19)
+  m_Name: sulawesi tengah
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12196,8 +12196,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380268627}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 908, y: -1798.2251, z: 1810}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -12970,7 +12970,7 @@ GameObject:
   - component: {fileID: 1538517698}
   - component: {fileID: 1538517697}
   m_Layer: 0
-  m_Name: pin 3 (28)
+  m_Name: papua barat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12984,8 +12984,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538517695}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 918, y: -1798.2251, z: 1019}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -13632,7 +13632,7 @@ GameObject:
   - component: {fileID: 1597893666}
   - component: {fileID: 1597893665}
   m_Layer: 0
-  m_Name: pin 3 (18)
+  m_Name: sulawesi barat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13646,8 +13646,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597893663}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 795, y: -1798.2251, z: 1937}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -14438,7 +14438,7 @@ GameObject:
   - component: {fileID: 1745911705}
   - component: {fileID: 1745911704}
   m_Layer: 0
-  m_Name: pin 3 (2)
+  m_Name: Jawa tengah
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14452,8 +14452,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745911702}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 401, y: -1798.2251, z: 2577}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -14581,7 +14581,7 @@ GameObject:
   - component: {fileID: 1776406534}
   - component: {fileID: 1776406533}
   m_Layer: 0
-  m_Name: pin 3 (8)
+  m_Name: sumatra selatan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14595,8 +14595,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776406531}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 701, y: -1798.2251, z: 2940}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -14724,7 +14724,7 @@ GameObject:
   - component: {fileID: 1779230964}
   - component: {fileID: 1779230963}
   m_Layer: 0
-  m_Name: pin 3 (25)
+  m_Name: NTB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14738,8 +14738,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779230961}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 282, y: -1798.2251, z: 2039}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -15455,7 +15455,7 @@ GameObject:
   - component: {fileID: 1833242637}
   - component: {fileID: 1833242636}
   m_Layer: 0
-  m_Name: pin 3 (1)
+  m_Name: Sumatra barat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15469,8 +15469,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833242634}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 1040, y: -1798.2251, z: 3266}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -15823,7 +15823,7 @@ GameObject:
   - component: {fileID: 1856810195}
   - component: {fileID: 1856810194}
   m_Layer: 0
-  m_Name: pin 3 (17)
+  m_Name: gorontalo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15837,8 +15837,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856810192}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
-  m_LocalPosition: {x: 1121, y: -1798.2251, z: 1972}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
+  m_LocalPosition: {x: 1093, y: -1798.2251, z: 1688}
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
@@ -16886,8 +16886,8 @@ Transform:
   m_GameObject: {fileID: 4457026824017163820}
   m_LocalRotation: {x: -0.68485606, y: 0.17598937, z: 0.68485606, w: 0.17598934}
   m_LocalPosition: {x: 983, y: -1801, z: 2083}
-  m_LocalScale: {x: 594.5283, y: 588.7878, z: 579.2742}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 500, y: 495.17197, z: 487.17126}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 410101003}
   m_RootOrder: -1
