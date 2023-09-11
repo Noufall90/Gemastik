@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      baju panjang 6_0: -3672859792706363751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
