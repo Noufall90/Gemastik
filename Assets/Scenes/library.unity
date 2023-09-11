@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 225103361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52a7d4f5c811d87db9e840c3b19cc1e, type: 3}
+  m_Script: {fileID: 11500000, guid: b928833af4cba3a568cc92d99fe29525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _startingSceneTransition: {fileID: 1508582049}
@@ -5062,7 +5062,7 @@ Camera:
     height: 1
   near clip plane: 1.27
   far clip plane: 18591.19
-  field of view: 50
+  field of view: 48.33037
   orthographic: 0
   orthographic size: 1571.5116
   m_Depth: -100
