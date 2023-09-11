@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ac36f1f406eeb6cbaaa4bdd05493d752
+guid: f78a415eeaf0e404bb7aa7a4219ab7a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2911447284007464127
-    second: baju panjang 2_0
+      213: 285042426284085942
+    second: baju panjang 22_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: baju panjang 2_0
+      name: baju panjang 22_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbc6a8911e9876820800000000000000
-      internalID: 2911447284007464127
+      spriteID: 6b21494939ca4f300800000000000000
+      internalID: 285042426284085942
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      baju panjang 2_0: 2911447284007464127
+      baju panjang 22_0: 285042426284085942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
