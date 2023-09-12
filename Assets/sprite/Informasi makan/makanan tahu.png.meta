@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      makanan tahu_0: -9180857810571697456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

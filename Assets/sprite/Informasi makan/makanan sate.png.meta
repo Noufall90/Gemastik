@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      makanan sate_0: 8248854299328993039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

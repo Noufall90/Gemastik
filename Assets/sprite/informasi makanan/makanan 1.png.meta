@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc7fa96611eb6fd6b9f6e37807676fe3
+guid: 44664fd8116050441afffc8ebcebe2ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1016901709518546653
-    second: indo_0
+      213: -7254734683640416945
+    second: makanan 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: indo_0
+      name: makanan 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 342
-        height: 162
+        width: 705
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 329d8a0784d33e1f0800000000000000
-      internalID: -1016901709518546653
+      spriteID: f4538e11e31025b90800000000000000
+      internalID: -7254734683640416945
       vertices: []
       indices: 
       edges: []
@@ -133,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      indo_0: -1016901709518546653
+      makanan 1_0: -7254734683640416945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
