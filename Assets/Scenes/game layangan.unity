@@ -206,7 +206,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1848592198}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: Keluar
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

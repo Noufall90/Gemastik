@@ -13,7 +13,7 @@ public class game1 : MonoBehaviour
 
     void TaskOnClick()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("game1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("game lompat tali");
     }
 
     // Update is called once per frame

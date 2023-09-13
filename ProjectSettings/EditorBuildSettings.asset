@@ -27,16 +27,16 @@ EditorBuildSettings:
     path: Assets/Scenes/shop.unity
     guid: 86161691f564085449721ddcc5f1a77d
   - enabled: 1
-    path: Assets/Scenes/game3.unity
+    path: Assets/Scenes/game terik pisang.unity
     guid: c65367cd9bba4f7408d0f6051dc6952e
   - enabled: 1
-    path: Assets/Scenes/game1.unity
+    path: Assets/Scenes/game lompat tali.unity
     guid: 00504d3a7d1cdf9438b30deb4306b7cb
   - enabled: 1
     path: Assets/Scenes/tudung.unity
     guid: c6f87e270ba0c1d4d8708e6a6bbe4776
   - enabled: 1
-    path: Assets/Scenes/layangan.unity
+    path: Assets/Scenes/game layangan.unity
     guid: 09badb9fa1b476c4ea6b5762e46db9f3
   - enabled: 1
     path: Assets/Scenes/library.unity

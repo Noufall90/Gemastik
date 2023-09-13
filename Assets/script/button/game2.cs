@@ -13,7 +13,7 @@ public class game3 : MonoBehaviour
 
     void TaskOnClick()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("game3");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("game terik pisang");
     }
 
     // Update is called once per frame

@@ -13,7 +13,7 @@ public class Layangan : MonoBehaviour
 
     void TaskOnClick()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("layangan");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("game layangan");
     }
 
     // Update is called once per frame

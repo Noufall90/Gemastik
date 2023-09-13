@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15894975, g: 0.51743203, b: 1.0385975, a: 1}
+  m_IndirectSpecularColor: {r: 0.15884578, g: 0.5173287, b: 1.0391194, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -206,7 +206,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1049278256}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: Keluar
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

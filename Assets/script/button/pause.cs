@@ -19,9 +19,10 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void Keluar(int SceneID)
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneID); // SceneID digantikan dengan nama scene yang ingin kamu load
-    }
+    public void Keluar()
+{
+    Time.timeScale = 1f;
+    SceneManager.LoadScene("game"); // Menggunakan nama scene "room" untuk memuatnya
+}
+
 }
