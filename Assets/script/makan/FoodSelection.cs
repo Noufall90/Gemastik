@@ -30,8 +30,10 @@ public class FoodSelection : MonoBehaviour
         selectedFood++;
         selectedInfo++;
         if(selectedFood == food.Length)
-            selectedFood = 0;
-            selectedInfo = 0;
+        {
+          selectedFood = 0;
+          selectedInfo = 0;
+        }
         food[selectedFood].SetActive(true);
         info[selectedInfo].SetActive(true);
         PlayerPrefs.SetInt("SelectedFood", selectedFood);
@@ -52,8 +54,10 @@ public class FoodSelection : MonoBehaviour
         selectedFood--;
         selectedInfo--;
         if(selectedFood == -1)
+        {
             selectedFood = food.Length -1;
             selectedInfo = info.Length -1;
+        }
         food[selectedFood].SetActive(true);
         info[selectedInfo].SetActive(true);
         PlayerPrefs.SetInt("SelectedFood", selectedFood);
